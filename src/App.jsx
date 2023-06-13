@@ -10,27 +10,14 @@ import Register from './pages/register/Register'
 
 
 const App = () => {
-  //  (
-  //   <div>
-  //     <Routes> 
-  //       <Route path={''} element={<Layout/>}> <Route path={PageRoutes.LOGIN} element={<Login/>}/> </Route>
-  //     </Routes>
-
-  //     <h1 className='text-yellow-400'>hello world</h1>
-  //     <Button className='text-yellow-500' btnType={'primary'} label='submit'/>
-  //     <Input type='text'/>
-  //     <Input type='date'/>
-      
-  //   </div>
-  // )
    return <>
 
       <Routes> 
            
+           <Route path={PageRoutes.LOGIN} element={<Login/>}/>
            <Route path={PageRoutes.FORGET} element={<ForgetPwd/>}/>
            <Route path={PageRoutes.REGISTER} element={<Register/>}/>
            <Route path={PageRoutes.HOME} element={<Home/>}/>
-           <Route path={PageRoutes.LOGIN} element={<Login/>}/>
          
       </Routes>
 

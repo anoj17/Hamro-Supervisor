@@ -13,8 +13,8 @@ const ForgetPwd = () => {
         <form  className='rounded-2xl h-[500px] w-[350px] bg-blue-800 bg-opacity-20 flex justify-center items-center'>
             
             <div className='z-10'>
-             <div className='absolute h-[150px] w-[160px] ml-[80px] top-14'>
-              <div className=' h-[100px] w-[100px] ml-4 rounded-[50%] overflow-hidden'>
+             <div className=' h-[150px] w-[160px] ml-[80px] mt-[30px]'>
+              <div className=' h-[100px] w-[100px] ml-4 rounded-[50%] overflow-hidden mt-[-135px]'>
               <img src='hamro.png' className='object-cover'/>
               </div>
               <h1 className='text-white py-2 font-bold font-sans'><span className='text-2xl text-green-600'>H</span>amro<span className='text-2xl text-green-600'> S</span>upervisor</h1>
@@ -24,10 +24,10 @@ const ForgetPwd = () => {
                 <Input label='username or email' type={'text'} placeholder={'username or email'} className={'my-2'}/>
                 <Input label='new password' type='text' placeholder='new-password' className={'my-2'}/>
                 <Link to={PageRoutes.HOME}>
-                    <Button label={'continue'} className={'bg-green-400 ml-16 absolute top-[440px]'}/>
+                    <Button label={'continue'} className={'bg-green-400 ml-16 mt-[20px]'}/>
                 </Link>
                 <Link to={PageRoutes.LOGIN}>
-                <div className='text-white px-20 font-bold font-sans absolute top-[500px]' >Login to account?</div>
+                <div className='text-white px-20 font-bold font-sans mt-3' >Login to account?</div>
                 </Link>
             </div>
              </div>
